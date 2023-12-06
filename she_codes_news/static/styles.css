@@ -31,10 +31,10 @@ html {
   :root {
     --color0: black ;
     --color1: #fe7f18;
-    --color2: #4e1125da;
+    --color2: #4e1125;
     --color3: #B8A3A1;
     --color4: #393A1F;
-    --color5: #3B2951;
+    --color5: #8b4e5e;
     --color6: #BC8D6D;
     /*  inherited colors  */
     --text: var(--color0);
