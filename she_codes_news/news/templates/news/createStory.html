@@ -7,11 +7,15 @@
 
 {% block content %}
     {% if request.user.is_authenticated %}
-    <form action="" method="post">
+    <section class="my-container">
+        <div class="my-form">
+        <form action="" method="post">
         {%csrf_token %}
         {{form.as_p}}
-        <input type="submit" value="submit">
-    </form>
+        <input type="submit" value="submit" class="my-button">
+        </form>
+        <div class="my-form">
+    </section>
      {% else %}
     <h2> Not available </h2>
     <p> Please log in to your account </p>
