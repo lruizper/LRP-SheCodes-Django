@@ -1,0 +1,78 @@
+[
+{
+    "model": "users.customuser",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$QwgVDGkEqbRy9ovTCfhcDn$QUTfIfhmrjEY1xo1cJIOnerefB/13qx0Vu8zmIUTjjk=",
+        "last_login": "2023-12-10T12:29:30.059Z",
+        "is_superuser": false,
+        "first_name": "",
+        "last_name": "",
+        "email": "lanie@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-12-02T02:33:20.068Z",
+        "profile_pic": null,
+        "username": "lanie-regular",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.customuser",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$HFSNKUzdKx59gC1eZ21uJF$WxbMqKQLaVFFTtvgBVmA+ZdzOr78gnCFRTUhStS1eIA=",
+        "last_login": "2023-12-10T13:08:26.623Z",
+        "is_superuser": false,
+        "first_name": "",
+        "last_name": "",
+        "email": "journalist1@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-12-02T02:34:48.976Z",
+        "profile_pic": null,
+        "username": "journalist1",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.customuser",
+    "pk": 3,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$ARCQ6zgsCDyGCBL7BQfX42$F5rxgjWJk+ZKu0HoPmckV0E44rnbGQpxCQPruET4ScQ=",
+        "last_login": "2023-12-04T12:36:34.935Z",
+        "is_superuser": false,
+        "first_name": "",
+        "last_name": "",
+        "email": "lruizper@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-12-04T12:36:19.571Z",
+        "profile_pic": null,
+        "username": "second-journalist",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.customuser",
+    "pk": 4,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$1BSdC1KE4JSkXzRKlF8Ewb$SfaLBx7yBR11NmtF5a0msLQZp1ogdiOnsJ+yEAF6OTw=",
+        "last_login": "2023-12-10T13:24:01.347Z",
+        "is_superuser": false,
+        "first_name": "",
+        "last_name": "",
+        "email": "thirduser@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-12-10T13:23:46.524Z",
+        "profile_pic": null,
+        "username": "third-user",
+        "groups": [],
+        "user_permissions": []
+    }
+}
+]

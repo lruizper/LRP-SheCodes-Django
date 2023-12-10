@@ -1,0 +1,123 @@
+[
+{
+    "model": "news.newsstory",
+    "pk": 1,
+    "fields": {
+        "title": "WE are joyous to be here",
+        "author": 2,
+        "pub_date": null,
+        "content": "Thanks to all my peers (not pears) for all the help and support",
+        "image": null
+    }
+},
+{
+    "model": "news.newsstory",
+    "pk": 2,
+    "fields": {
+        "title": "The real issue here",
+        "author": 1,
+        "pub_date": null,
+        "content": "well we have not a clue",
+        "image": null
+    }
+},
+{
+    "model": "news.newsstory",
+    "pk": 3,
+    "fields": {
+        "title": "after a few changes, we are still here",
+        "author": 2,
+        "pub_date": null,
+        "content": "We have been updating our form to submit news and it's getting smarter, faster, harder",
+        "image": null
+    }
+},
+{
+    "model": "news.newsstory",
+    "pk": 4,
+    "fields": {
+        "title": "Monday of Django go go go!",
+        "author": 2,
+        "pub_date": null,
+        "content": "It is Monday of week three of Django module and I'm finaaaaaally feeling like I have the brains and the patience to read through the class notes on Thinkific.\r\nStill on the project set-up but it's helping me gain context and awareness of what was done, how it was done and why!\r\nAnyways... enough with the rant. Save and keep going.\r\nPd: There is an image field but it is expecting text?\r\n\r\nLIGHT BULB MOMENT!!\r\nMaybe the features that I'll implement in my site are going to be: \r\n1. Change the image field so it is able to receive image files\r\n-needs to check for file extensions and file size\r\n-bonus: possibly a drag and drop box?\r\n\r\n2. Have a pre-view page before submitting the story.",
+        "image": null
+    }
+},
+{
+    "model": "news.newsstory",
+    "pk": 5,
+    "fields": {
+        "title": "Submitting python asignment before take-off",
+        "author": 1,
+        "pub_date": null,
+        "content": "There is only one reason that makes me rush through the content of a module this fast, work additional hours in debugging for the assigment and submitting well before the due date!!\r\nThe one and only reason is a trip!!\r\nWell and this is quite the trip.\r\nWith my partner we're going to spend some time in Malaysia, then mostly Japan and lastly Singapore on our way back to home ground: Perth!!\r\nJust the excitment of the trip and the idea of not having to bring a laptop and do study while on holidays is sufficient to fuel me to power through all this unit testing!!\r\nSoon enough all tests will be PASS and I'll be receiving my first boarding pass!! \r\nBye bye python unit testing!! Hello sake tasting :)",
+        "image": "https://hips.hearstapps.com/hmg-prod/images/gettyimages-1677184597.jpg?crop=0.668xw:1.00xh;0.167xw,0&resize=1200:*"
+    }
+},
+{
+    "model": "news.newsstory",
+    "pk": 6,
+    "fields": {
+        "title": "Confused kitchen",
+        "author": 2,
+        "pub_date": null,
+        "content": "Tart cupcake sugar plum wafer gummi bears tootsie roll lollipop. Brownie pie jelly beans chocolate cake sugar plum dessert souffl\\u00e9 donut. Candy brownie jujubes chocolate toffee fruitcake powder candy drag\\u00e9e. Caramels caramels marzipan halvah drag\\u00e9e bear claw apple pie. Toffee jelly beans dessert chocolate ice cream cotton candy caramels jelly. Sesame snaps cotton candy cotton candy tiramisu. Drag\\u00e9e cupcake toffee topping. Ice cream sesame snaps chupa chups. Bonbon souffl\\u00e9 sweet ice cream chocolate bar cookie. Brownie chocolate caramels pie oat cake pie marshmallow carrot cake chupa chups. Souffl\\u00e9 sugar plum sesame snaps lemon drops.",
+        "image": "https://previews.123rf.com/images/marinabh/marinabh1707/marinabh170700164/82516319-cartoon-illustration-of-stressed-woman-cooking-in-messy-kitchen-illustration.jpg"
+    }
+},
+{
+    "model": "news.newsstory",
+    "pk": 7,
+    "fields": {
+        "title": "Oh The Places I Went: My Trip To Japan",
+        "author": 1,
+        "pub_date": null,
+        "content": "Kyoto, a city where the past and present harmonize, offered an unforgettable experience during my recent visit, especially in the enchanting Arashiyama gardens. This historical city, known for its timeless beauty and cultural heritage, truly comes alive in autumn. The Arashiyama gardens, a breathtaking expanse of nature, presented an autumnal spectacle like no other. As I wandered through the gardens, the light filtering through the leaves painted a kaleidoscope of warm colors, from fiery reds to golden yellows, creating a tapestry that seemed almost surreal. The way the sunlight danced on the foliage was mesmerizing, casting a soft, golden hue that accentuated the natural beauty of the landscape. It was like walking through a living, breathing painting, where every step revealed a new and enchanting perspective.\r\n\r\nThe gardens of Arashiyama are not just about the visual delight; they are an experience that engages all the senses. The gentle rustling of leaves in the crisp autumn breeze, the subtle scent of moss and earth, and the serene ambiance provided a deep sense of tranquility. It felt as if time slowed down, allowing me to savor every moment of the day's waning light. The play of light and shadow through the maples and the reflections on the ponds created a magical, almost mystical atmosphere. This sensory journey was complemented by the rich history and tradition of Kyoto, making the visit to Arashiyama gardens an essential part of the city's exploration. It wasn't just a visit; it was an immersion into a world where nature's artistry and historical significance intertwine, leaving an indelible mark on my heart.",
+        "image": "https://offbeatjapan.org/wp-content/uploads/2021/11/jordy-meow-0409055219-1500x500.jpg"
+    }
+},
+{
+    "model": "news.newsstory",
+    "pk": 8,
+    "fields": {
+        "title": "Hacky hack for extra security",
+        "author": 2,
+        "pub_date": null,
+        "content": "New development!!\r\nOnly users who have used their log in details can add write a new story!\r\nFor this two changes have been made, namely:\r\n-moving the 'write new story\" button to the nav along with the other options\r\n-using the user authenticated line in the new story html template",
+        "image": "https://manavrachna.edu.in/wp-content/uploads/2022/09/picture1-1-1024x585.jpg"
+    }
+},
+{
+    "model": "news.newsstory",
+    "pk": 9,
+    "fields": {
+        "title": "Progress with the styles",
+        "author": 1,
+        "pub_date": null,
+        "content": "Tonight I've been on a trip down memory lane!\r\nI've been re-using some of my styles.css from the html & css module, the same one that I used for the portfolio!\r\nSo far I've been playing with the colors of the syte and with the header bar.\r\nI'ts been good for navigating between the html files of this project and understanding what is where and who is calling whom... well, I guess understanding a bit more that yesterday.\r\nAs always my mantra: Some progress is progress\r\nEnter flexbox, google fonts, and coolors again!!",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKCCa9ZZthuayrNkCp5fG5VRmQme0ardorOQ&usqp=CAU"
+    }
+},
+{
+    "model": "news.newsstory",
+    "pk": 10,
+    "fields": {
+        "title": "Practice makes perfect",
+        "author": 1,
+        "pub_date": "2023-12-08",
+        "content": "At first, the shift feels like navigating through uncharted waters. The principles of Django, so different from the familiar territory of data analysis and biomedical research, initially seem daunting. Yet, driven by a passion for continuous learning and growth, the data analyst plunges into the depths of web development. Practice becomes their new research lab, where trial and error, experimentation, and learning from mistakes are the norm.\r\n\r\nAs days turn into weeks, the once obscure concepts of Django start making sense. The analyst’s background in data and software, combined with a relentless pursuit of knowledge, begins to bear fruit. Every coding session builds confidence, transforming confusion into clarity. This journey, from a PhD in Biomedical Sciences to mastering Django, is not just a career shift, but a testament to the power of adaptability and the timeless truth that practice indeed makes perfect.",
+        "image": "https://mallory.com.au/wp-content/uploads/female-technology-professional.jpg"
+    }
+},
+{
+    "model": "news.newsstory",
+    "pk": 11,
+    "fields": {
+        "title": "Data Analyst Breaks New Ground in Web Development with Stylish Django Project Revamp",
+        "author": 1,
+        "pub_date": "2023-12-10",
+        "content": "In a recent development that's catching the attention of the tech community, a local data analyst from a Perth-based R&D startup has made significant strides in their personal Django project, showcasing an impressive fusion of data science and web development skills. In a late-night session filled with focus and determination, the analyst successfully revamped the CSS styling of a form in their Django application, a task that resonates with both their professional expertise and personal passion for technology.\r\n\r\nWhat makes this achievement noteworthy is not just the aesthetic enhancement of the web form but the seamless integration of functionality and design, a crucial aspect in today's user-centric tech landscape. The analyst, with a background in biological engineering and a PhD in biomedical science, has been skillfully navigating the realms of data analysis and software development. This recent accomplishment in web design illustrates a remarkable versatility, blending the analytical rigor of their day job with the creative demands of web development. Their project, now sporting a professionally styled form, stands as a testament to the power of continuous learning and adaptation in the tech industry. It's a story of personal growth, professional development, and the endless possibilities that emerge when one ventures beyond their comfort zone.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsPHVW2onhYNgTMnZMN_ge6r6t_FK46UGsdw&usqp=CAU"
+    }
+}
+]
