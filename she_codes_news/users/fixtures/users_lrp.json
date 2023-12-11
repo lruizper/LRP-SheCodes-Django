@@ -4,7 +4,7 @@
     "pk": 1,
     "fields": {
         "password": "pbkdf2_sha256$600000$QwgVDGkEqbRy9ovTCfhcDn$QUTfIfhmrjEY1xo1cJIOnerefB/13qx0Vu8zmIUTjjk=",
-        "last_login": "2023-12-10T12:29:30.059Z",
+        "last_login": "2023-12-11T12:52:04.696Z",
         "is_superuser": false,
         "first_name": "",
         "last_name": "",
@@ -14,6 +14,7 @@
         "date_joined": "2023-12-02T02:33:20.068Z",
         "profile_pic": null,
         "username": "lanie-regular",
+        "about": "The most seasoned journalist in this web page",
         "groups": [],
         "user_permissions": []
     }
@@ -33,6 +34,7 @@
         "date_joined": "2023-12-02T02:34:48.976Z",
         "profile_pic": null,
         "username": "journalist1",
+        "about": "The second most seasoned journalist in this web page",
         "groups": [],
         "user_permissions": []
     }
@@ -52,6 +54,7 @@
         "date_joined": "2023-12-04T12:36:19.571Z",
         "profile_pic": null,
         "username": "second-journalist",
+        "about": "",
         "groups": [],
         "user_permissions": []
     }
@@ -61,7 +64,7 @@
     "pk": 4,
     "fields": {
         "password": "pbkdf2_sha256$600000$1BSdC1KE4JSkXzRKlF8Ewb$SfaLBx7yBR11NmtF5a0msLQZp1ogdiOnsJ+yEAF6OTw=",
-        "last_login": "2023-12-10T13:24:01.347Z",
+        "last_login": "2023-12-10T14:18:25.317Z",
         "is_superuser": false,
         "first_name": "",
         "last_name": "",
@@ -71,6 +74,7 @@
         "date_joined": "2023-12-10T13:23:46.524Z",
         "profile_pic": null,
         "username": "third-user",
+        "about": "",
         "groups": [],
         "user_permissions": []
     }

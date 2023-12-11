@@ -1,7 +1,14 @@
 {% extends 'base.html' %}
-
 {% block content%}
-    <h2>My profile</h2>
-    <p> This is working! </p>
-
+    <h2>Author's profile of {{ user.username }}</h2>
+    <section class="my-container">
+        <div id="my_profile">
+            <h2>{{ user.username }}</h2>
+            {% if request.user.is_authenticated %}
+            <p>Email: {{ user.email }}</p>
+            <p>About: {{ user.about }}</p>
+            {% endif %}
+            <img src="{{ user.user_img }}"" alt="Profile Pic">
+        </div>
+    </section>    
 {% endblock%}
