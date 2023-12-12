@@ -159,11 +159,17 @@ nav a {
 
 }
 
+/* STORY */
+.my-story{
+  padding: 20px 0px;
+  margin: 10px;
+}
+
 /* FORM */
 .my-container{
-  /* border: solid 5px #ef2d2d; */
   display: flex;
   justify-content: center;
+  align-items: center;
   }
 
 .my-form{
