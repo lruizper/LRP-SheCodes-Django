@@ -48,6 +48,7 @@ html {
   
   /* heading styles */
   h1 {
+    width: 100%;
     font-family: 'Montserrat', serif;
     font-size:40px;
     font-weight: 600;
@@ -105,9 +106,6 @@ html {
     padding: 5px;
   }
 
-  p{
-    /* style the paragraph */
-  }
 /* #header-text {
     flex-basis: 80%;
     display: flex;
@@ -130,7 +128,7 @@ a {
 
 a, p {
     font-family: 'Montserrat', sans-serif;
-    font-size:16px;
+    font-size:18px;
 }
 
 header{
