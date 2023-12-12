@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block content %}
+
+
+{% if news_results %}
+<h2> Search Results </h2>
+<section >
+{% for news in news_results %}
+   <ul>{{ news.author.username }} >>> {{ news.title }} </ul> 
+{% endfor %}
+</section>
+{% else %}
+<h2> No Results Found</h2>
+<h4> Your query did not retrieve any results </p>
+{% endif %}
+
+{% endblock %}

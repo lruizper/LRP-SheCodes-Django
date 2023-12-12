@@ -1,0 +1,19 @@
+<!-- as sugested by gpt  -->
+<!-- consider trying this -->
+{% extends 'base.html' %}
+{% block content %}
+
+{% if grouped_news %}
+    <h2>News stories found</h2>
+    {% for author, stories in grouped_news.items %}
+        <h3>Author: {{ author }}</h3>
+        <ul>
+            {% for news in stories %}
+                <li>{{ news.title }}</li>
+            {% endfor %}
+        </ul>
+    {% endfor %}
+{% else %}
+    <h2>No Results Found</h2>
+    <h4>Your query did not retrieve any results</h4>
+{% endif %}

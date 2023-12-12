@@ -7,8 +7,10 @@ from .forms import StoryForm
 from typing import Any
 from django.db.models.query import QuerySet
 from django.contrib.auth.mixins import LoginRequiredMixin
-from users.models import CustomUser
 from django.shortcuts import render
+
+from collections import defaultdict
+
 
 class IndexView(generic.ListView):
     template_name = 'news/index.html'
@@ -46,6 +48,11 @@ class SearchView(View):
         query = request.GET.get('q', '')
         news_results = NewsStory.objects.filter(author__username__icontains=query)
 
+        # Grouping news stories by author
+        grouped_news = defaultdict(list)
+        for news in news_results:
+            grouped_news[news.author.username].append(news)
+        
         context = {
             'news_results': news_results,
             'query': query,
