@@ -6,7 +6,7 @@
 <h2> Search Results </h2>
 <section >
 {% for news in news_results %}
-   <ul>{{ news.author.username }} >>> {{ news.title }} </ul> 
+   <ul>{{ news.author.username }} >>> <a href="{%  url  'news:story' news.id %}">{{ news.title }}</a>  </ul> 
 {% endfor %}
 </section>
 {% else %}

@@ -42,7 +42,7 @@ class AddStoryView (generic.CreateView):
         return super().form_valid(form)
     
 class SearchView(View):
-    template_name = 'news/authorSearch.html'
+    template_name = 'news/authorSearch_opt2.html'
 
     def get(self, request, *args, **kwargs):
         query = request.GET.get('q', '')
@@ -55,7 +55,8 @@ class SearchView(View):
         
         context = {
             'news_results': news_results,
+            'grouped_news': dict(grouped_news), 
             'query': query,
         }
-
+        print(context)
         return render(request, self.template_name, context)
