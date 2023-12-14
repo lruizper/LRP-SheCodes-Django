@@ -6,10 +6,10 @@
 {% if grouped_news %}
     <h2>News stories found</h2>
     {% for author, stories in grouped_news.items %}
-        <h3>Author: {{ author }}</h3>
+        <h3>{{ author }}</h3>
         <ul>
             {% for news in stories %}
-                <li>{{ news.title }}</li>
+                <li><a href="{%  url  'news:story' news.id %}">{{ news.title }}</a></li>
             {% endfor %}
         </ul>
     {% endfor %}

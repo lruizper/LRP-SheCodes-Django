@@ -25,21 +25,21 @@ As this is a public repo, if you are reading this and are interested in trying i
 ![ When a user has logged in, they will be able to see the option to write a new story. This is the screenshot of the styled form ]( images/WriteNewStory_StyledForm.png )
 - [x] Story images
 ![ When the story has an associated image URL with it, it will display in the story card of the main page. If a story does not have an associated image in the database, then it will retreive a random one from picsum site ]( images/StoryImages_inMainPage.png )
-- [ ] Log-in/log-out
-![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
-- [ ] "Account view" page
-![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
-- [ ] "Create Account" page
-![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
-- [ ] View stories by author
-![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
-- [ ] "Log-in" button only visible when no user is logged in/"Log-out" buttononly visible when a user *is* logged in
-![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
-- [ ] "Create Story" functionality only available when user is logged in
-![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
+- [x] Log-in/log-out
+![ Styled form that allows registered users to log in ]( images/LogInForm_styled.png )
+- [x] "Account view" page
+![ Min viable product of the profile page. A lot of work left to make this page more informative, interactive and styled ]( images/ProfileView.png )
+- [x] "Create Account" page
+![ A standard form as provided by django and set to custom in user views, styled matching other forms across the site ]( images/CreateAccountForm_styled.png )
+- [x] View stories by author
+![ If user is logged in, a search box appears in nav which can be used to search authors. If multiple authors are retrieved that match the query str then their stories will appear grouped by author ]( images/SearchResults_storiesbyAuthor.png )
+- [x] "Log-in" button only visible when no user is logged in/"Log-out" button only visible when a user *is* logged in
+![ When a user is logged in, the header will no longer show the log in button. Instead it will display more information and functionality available only to registered users ]( images/Header_loggedIn.png )
+![ When no user is logged in, the only options in nav will be to log in or visit homesite ]( images/Header_NotLoggedIn.png )
+- [X] "Create Story" functionality only available when user is logged in
+![ An error message lets the user know that they have to register and log in to be able to create and submit a new story]( images/WriteNewStory_accessDenied.png )
+
 ## Additional Features:
-- [ ] Add categories to the stories and allow the user to search for stories bycategory.
-![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
 - [ ] Add the ability to update and delete stories (consider permissions - whoshould be allowed to update or and/or delete stories).
 ![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
 - [ ] Add the ability to “favourite” stories and see a page with your favouritestories.
