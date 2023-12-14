@@ -1,13 +1,10 @@
 # Lanie Ruiz-Perez - She Codes News Project
 ## About This Project
 This repo contains code which was personalised from the SheCodes original template for the django module. This is the state as submitted for the assignment of the django module of the SheCodes Plus Perth cohort in Dec 2023.
-The project is a website which allows users to visit a news stories site, create accounts, submit stories, and view stories by other authors. All of this taking into account the appropiate permissions for logeed in users and makin use of predefined models. 
-To achieve this, there are two apps (news and users).
-A fixtures file is available in news/fixtures.
+The project is a website which allows users to visit a news stories site, create their accounts and log in, submit news stories for other users to see, and view stories by other authors. All of this taking into account the appropiate permissions for logged in users, and making use of predefined django models. 
+To achieve this, there are two apps (news and users) which can be found within the folder structure of the repo, following common practice.
+A fixtures file is also available in news/fixtures.
 ## How To Run This Code
-{{Give a quick step-by-step guide on how to download and run your codebase.It's ok to assume the reader is another developer here, so don't feel like youhave to explain what a virtual environment is, etc.Give directions like "clone the repo to your local machine", "create a virtualenvironment", "migrate the database", etc.
-When you need to specify terminal commands, you can surround them withbackticks, like so: `python manage.py runserver`. This formats them ascode in the markdown document. (The backtick key is to the left of thenumber 1 at the top of your keyboard.)
-}}
 As this is a public repo, if you are reading this and are interested in trying it for yourself these are some steps you can follow:
 - Clone the repo and open in your local terminal
 - Create a virtual environment and install the requirements
@@ -16,14 +13,14 @@ As this is a public repo, if you are reading this and are interested in trying i
 - Follow the link provided which should open your web browser
 - Edit the IP address to access the news site by adding `/news` at the end. This should show the news website with some news content and style
 - Create an account: To do this add `/users/createaccount` at the end of the original IP address. Fill and submit the form
-- Log in to be able to access the rest of the functionality of the site as described below
+- Log in: this way you'll be able to access the rest of the functionality of the site as described below
 
 ## Database Schema
 ![ {{ My ERD }} ]( {{ ./relative_path_to_your_entity_relationship_diagram }} )
 
 ## Project Features
 - [ ] Order stories by date
-![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
+![ A screenshot from the main page displaying four recent stories sorted by published date  ]( {{ images/MainPage_storiesOrderedbymostRecentdate.png }} )
 - [ ] Styled "new story" form
 ![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
 - [ ] Story images
