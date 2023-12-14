@@ -21,10 +21,10 @@ As this is a public repo, if you are reading this and are interested in trying i
 ## Project Features
 - [X] Order stories by date
 ![ A screenshot from the main page displaying four recent stories sorted by published date  ]( images/MainPage_storiesOrderedbymostRecentdate.png)
-- [ ] Styled "new story" form
-![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
-- [ ] Story images
-![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
+- [X] Styled "new story" form
+![ When a user has logged in, they will be able to see the option to write a new story. This is the screenshot of the styled form ]( images/WriteNewStory_StyledForm.png )
+- [x] Story images
+![ When the story has an associated image URL with it, it will display in the story card of the main page. If a story does not have an associated image in the database, then it will retreive a random one from picsum site ]( images/StoryImages_inMainPage.png )
 - [ ] Log-in/log-out
 ![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
 - [ ] "Account view" page
