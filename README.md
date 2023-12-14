@@ -19,8 +19,8 @@ As this is a public repo, if you are reading this and are interested in trying i
 ![ {{ My ERD }} ]( {{ ./relative_path_to_your_entity_relationship_diagram }} )
 
 ## Project Features
-- [ ] Order stories by date
-![ A screenshot from the main page displaying four recent stories sorted by published date  ]( {{ images/MainPage_storiesOrderedbymostRecentdate.png }} )
+- [X] Order stories by date
+![ A screenshot from the main page displaying four recent stories sorted by published date  ]( images/MainPage_storiesOrderedbymostRecentdate.png)
 - [ ] Styled "new story" form
 ![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
 - [ ] Story images
