@@ -16,7 +16,7 @@ As this is a public repo, if you are reading this and are interested in trying i
 - Log in: this way you'll be able to access the rest of the functionality of the site as described below
 
 ## Database Schema
-![ {{ My ERD }} ]( {{ ./relative_path_to_your_entity_relationship_diagram }} )
+![ Image of the relevant fields in the db.sqlite3 in this site. This was made with draw.io after having a look at the db using the SQLite Viewer ]( images/EDR_lrp.jpg )
 
 ## Project Features
 - [X] Order stories by date
